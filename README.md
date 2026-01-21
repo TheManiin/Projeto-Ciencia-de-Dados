@@ -18,19 +18,19 @@ O projeto busca identificar padrões e fatores que influenciam o desempenho come
 
 O dataset utilizado contém informações de livros obtidas da plataforma Goodreads, incluindo:
 
-Autores
+- Autores
 
-Ano de publicação
+- Ano de publicação
 
-Avaliações médias
+- Avaliações médias
 
-Quantidade de avaliações por nota (1 a 5)
+- Quantidade de avaliações por nota (1 a 5)
 
-Idioma
+- Idioma
 
-Número de avaliações e resenhas
+- Número de avaliações e resenhas
 
-Metadados editoriais
+- Metadados editoriais
 
 ## Principais variáveis utilizadas
 
@@ -50,19 +50,19 @@ Metadados editoriais
 
 As seguintes etapas foram realizadas para garantir a qualidade dos dados:
 
-Identificação e tratamento de valores ausentes
+Identificação e tratamento de valores ausentes.
 
-Conversão de tipos de dados (ex: `ano de publicação`)
+Conversão de tipos de dados (ex: `ano de publicação`).
 
-Preenchimento de valores nulos com média ou valores padrão
+Preenchimento de valores nulos com média ou valores padrão.
 
-Remoção de colunas irrelevantes (ISBN, URLs de imagens)
+Remoção de colunas irrelevantes (ISBN, URLs de imagens).
 
-Codificação de variáveis categóricas com One-Hot Encoding
+Codificação de variáveis categóricas com One-Hot Encoding.
 
-Seleção manual de features relevantes
+Seleção manual de features relevantes.
 
-Análise Exploratória de Dados (EDA)
+Análise Exploratória de Dados (EDA).
 
 # A análise exploratória incluiu:
 
@@ -166,12 +166,12 @@ Validação cruzada
 
 # Conclusões
 
-O volume de avaliações e resenhas é um forte indicativo de vendas
+O volume de avaliações e resenhas é um forte indicativo de vendas.
 
-Modelos não lineares apresentaram desempenho significativamente superior
+Modelos não lineares apresentaram desempenho significativamente superior.
 
-O XGBoost se mostrou o mais eficiente para o problema proposto
+O XGBoost se mostrou o mais eficiente para o problema proposto.
 
-A análise exploratória foi essencial para entender o comportamento do mercado editorial
+A análise exploratória foi essencial para entender o comportamento do mercado editorial.
 
-A comparação entre modelos agregou robustez e profundidade ao projeto
+A comparação entre modelos agregou robustez e profundidade ao projeto.
