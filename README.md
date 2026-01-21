@@ -52,7 +52,7 @@ As seguintes etapas foram realizadas para garantir a qualidade dos dados:
 
 Identificação e tratamento de valores ausentes
 
-Conversão de tipos de dados (ex.: `ano de publicação`)
+Conversão de tipos de dados (ex: `ano de publicação`)
 
 Preenchimento de valores nulos com média ou valores padrão
 
@@ -70,19 +70,19 @@ Distribuição das vendas `(work_text_reviews_count)`
 
 Relação entre:
 
-Avaliações e vendas
+- Avaliações e vendas
 
-Ano de publicação e vendas
+- Ano de publicação e vendas
 
-Idioma e vendas
+- Idioma e vendas
 
-Autores e desempenho comercial
+- Autores e desempenho comercial
 
-Análise dos Top 50 autores
+- Análise dos Top 50 autores
 
-Tendências temporais no mercado editorial
+- Tendências temporais no mercado editorial
 
-Boxplots, histogramas, gráficos de dispersão e barras
+- Boxplots, histogramas, gráficos de dispersão e barras
 
 Essas análises permitiram extrair insights relevantes sobre o comportamento do mercado editorial.
 
@@ -90,7 +90,7 @@ Essas análises permitiram extrair insights relevantes sobre o comportamento do 
 
 Apesar do requisito mínimo ser o uso de apenas um algoritmo, foram utilizados três modelos, com o objetivo de comparar desempenho e robustez:
 
-- Regressão Linear (OLS)
+- ## Regressão Linear (OLS)
 
 Modelo base (baseline)
 
@@ -102,7 +102,7 @@ R² ≈ 0.53
 
 RMSE ≈ 4554
 
-- Random Forest Regressor
+- ##Random Forest Regressor
 
 Modelo baseado em ensemble de árvores
 
@@ -116,7 +116,7 @@ RMSE ≈ 2876
 
 MAE ≈ 1413
 
-- XGBoost Regressor
+- ##XGBoost Regressor
 
 Modelo de Gradient Boosting
 
