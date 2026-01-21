@@ -102,7 +102,7 @@ R² ≈ 0.53
 
 RMSE ≈ 4554
 
-- ##Random Forest Regressor
+- ## Random Forest Regressor
 
 Modelo baseado em ensemble de árvores
 
@@ -116,7 +116,7 @@ RMSE ≈ 2876
 
 MAE ≈ 1413
 
-- ##XGBoost Regressor
+- ## XGBoost Regressor
 
 Modelo de Gradient Boosting
 
