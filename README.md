@@ -10,7 +10,7 @@ O trabalho foi muito elogiado, principalmente pela profundidade da análise expl
 
 Desenvolver modelos de regressão capazes de prever o volume de vendas de livros, utilizando como proxy a variável:
 
-- work_text_reviews_count (quantidade de resenhas textuais)
+`work_text_reviews_count` (quantidade de resenhas textuais)
 
 O projeto busca identificar padrões e fatores que influenciam o desempenho comercial de livros no mercado editorial.
 
@@ -34,17 +34,17 @@ Metadados editoriais
 
 ## Principais variáveis utilizadas
 
-'ratings_count'
+`ratings_count`
 
-'average_rating'
+`average_rating`
 
-'original_publication_year'
+`original_publication_year`
 
-'ratings_1 a ratings_5'
+`ratings_1 a ratings_5`
 
-'language_code'
+`language_code`
 
-'authors'
+`authors`
 
 # Tratamento e Pré-processamento dos Dados
 
@@ -52,7 +52,7 @@ As seguintes etapas foram realizadas para garantir a qualidade dos dados:
 
 Identificação e tratamento de valores ausentes
 
-Conversão de tipos de dados (ex.: 'ano de publicação')
+Conversão de tipos de dados (ex.: `ano de publicação`)
 
 Preenchimento de valores nulos com média ou valores padrão
 
@@ -66,7 +66,7 @@ Análise Exploratória de Dados (EDA)
 
 # A análise exploratória incluiu:
 
-Distribuição das vendas '(work_text_reviews_count)'
+Distribuição das vendas `(work_text_reviews_count)`
 
 Relação entre:
 
@@ -96,7 +96,7 @@ Modelo base (baseline)
 
 Utilizado para comparação inicial
 
-Resultados:
+`Resultados:`
 
 R² ≈ 0.53
 
@@ -108,7 +108,7 @@ Modelo baseado em ensemble de árvores
 
 Captura relações não lineares
 
-Resultados:
+`Resultados:`
 
 R² ≈ 0.81
 
@@ -122,7 +122,7 @@ Modelo de Gradient Boosting
 
 Melhor desempenho geral do projeto
 
-Resultados:
+`Resultados:`
 
 R² ≈ 0.83
 
@@ -130,7 +130,7 @@ RMSE ≈ 2768
 
 MAE ≈ 1336
 
-'Também foram realizadas:'
+`Também foram realizadas:`
 
 Análise de importância das features
 
@@ -144,7 +144,7 @@ Validação cruzada
 | Random Forest    | ~2876  | 0.81 |
 | XGBoost          | ~2768  | 0.83 |
 
-'O XGBoost apresentou o melhor equilíbrio entre erro e capacidade de generalização.'
+`O XGBoost apresentou o melhor equilíbrio entre erro e capacidade de generalização.`
 
 # Tecnologias Utilizadas
 
